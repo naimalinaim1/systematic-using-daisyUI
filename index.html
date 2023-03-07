@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Systematic using DaisyUI</title>
     <!-- daisyUi cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- top navbar menu -->
+      <div class="navbar bg-red-500">
+        <div class="flex-1">
+          <ul class="menu menu-horizontal px-1 text-white font-semibold">
+            <li><a href="">Sign Up</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">RSS Feeds</a></li>
+            <li><a href="">Archived News</a></li>
+          </ul>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder="Search here"
+              class="input input-bordered input-sm w-full max-w-xs"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
