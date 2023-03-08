@@ -13,7 +13,10 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome kit -->
-    <script src="https://kit.fontawesome.com/638dfe9f71.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/638dfe9f71.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header -->
@@ -47,14 +50,65 @@
         </div>
         <div>
           <ul class="menu menu-horizontal space-x-5">
-            <li class="bg-gray-700 rounded-full"><a href=""><i class="py-1 fa-brands fa-linkedin-in text-white"></i></a></li>
-            <li class="bg-gray-700 rounded-full"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></li>
-            <li class="bg-gray-700 rounded-full"><a href=""><i class="fa-brands fa-pinterest-p text-white"></i></a></li>
-            <li class="bg-gray-700 rounded-full"><a href=""><i class="fa-brands fa-google-plus-g text-white"></i></a></li>
-            <li class="bg-gray-700 rounded-full"><a href=""><i class="fa-solid fa-rss text-white"></i></a></li>
+            <li class="bg-gray-700 rounded-full">
+              <a href=""
+                ><i class="py-1 fa-brands fa-linkedin-in text-white"></i
+              ></a>
+            </li>
+            <li class="bg-gray-700 rounded-full">
+              <a href=""><i class="fa-brands fa-twitter text-white"></i></a>
+            </li>
+            <li class="bg-gray-700 rounded-full">
+              <a href=""><i class="fa-brands fa-pinterest-p text-white"></i></a>
+            </li>
+            <li class="bg-gray-700 rounded-full">
+              <a href=""
+                ><i class="fa-brands fa-google-plus-g text-white"></i
+              ></a>
+            </li>
+            <li class="bg-gray-700 rounded-full">
+              <a href=""><i class="fa-solid fa-rss text-white"></i></a>
+            </li>
           </ul>
         </div>
       </div>
+      <!-- main navbar menu -->
+      <nav class="px-12">
+        <div class="navbar bg-black rounded-lg">
+          <ul
+            class="flex-1 justify-evenly menu menu-horizontal text-white font-semibold uppercase"
+          >
+            <li><a href="">Homepage</a></li>
+            <li><a href="">Style Demo</a></li>
+            <li><a href="">Full Width</a></li>
+            <li tabindex="0">
+              <a>
+                Parent
+                <svg
+                  class="fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                  />
+                </svg>
+              </a>
+              <ul class="p-2 bg-black rounded-lg">
+                <li><a href="">Submenu 1</a></li>
+                <li><a href="">Submenu 2</a></li>
+                <li><a href="">Submenu 3</a></li>
+              </ul>
+            </li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Link Text</a></li>
+            <li><a href="">Long Link Text</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
   </body>
 </html>
